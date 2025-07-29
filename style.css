@@ -1,0 +1,52 @@
+body {
+width: 50%;
+margin-left: 25%;
+background-color: #3b3b3b;
+color: rgb(212, 212, 212);
+font-size: large;
+}
+
+div h2{
+    text-align: center;
+    font-size: 150%;
+}
+header {
+    background-color: #1d1d1d ;
+    text-align: center;
+    padding: 30px;
+    padding-top: 5px;
+    border-radius: 40px;
+    margin-bottom: 2%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+}
+
+header a {
+    color: rgb(212, 212, 212) ;
+}
+
+div {
+    background-color: #1d1d1d;
+    padding: 40px;
+    border-radius: 40px;
+    margin-bottom: 1%;
+    padding-top: 5px;
+}
+
+footer {
+    text-align: end;
+}
+
+@media screen and (max-width: 1000px) {
+
+    body {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}
